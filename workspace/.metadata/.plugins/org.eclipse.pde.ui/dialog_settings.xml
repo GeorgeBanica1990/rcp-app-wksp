@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="3.5 or greater" key="targetName"/>
+	<item value="false" key="uiPlugin"/>
+	<item value="false" key="apiAnalysis"/>
+	<item value="true" key="rcpPlugin"/>
+	<item value="false" key="osgiProject"/>
+	<item value="false" key="generatePluginActivator"/>
+	<list key="providers">
+		<item value="GEORGEB"/>
+	</list>
+	<section name="PDEFormActionManager">
+	</section>
+	<section name="PluginImportWizard">
+		<item value="1" key="importType"/>
+		<item value="true" key="scanAll"/>
+		<item value="true" key="addFragments"/>
+		<item value="F:\Eclipse\jgit" key="droplocation0"/>
+		<item value="1" key="importFrom"/>
+		<item value="true" key="showLatestPluginsOnly"/>
+	</section>
+	<section name="org.eclipse.pde.ui.dialogs.PluginSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="669" key="DIALOG_X_ORIGIN"/>
+			<item value="191" key="DIALOG_Y_ORIGIN"/>
+		</section>
+	</section>
+	<section name="FeatureImportWizard">
+	</section>
+	<section name="quick_assist_proposal_size">
+	</section>
+</section>

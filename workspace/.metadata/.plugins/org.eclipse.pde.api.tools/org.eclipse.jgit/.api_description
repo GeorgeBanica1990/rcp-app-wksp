@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.eclipse.jgit" modificationStamp="4996" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{ChainingCredentialsProvider.java[ChainingCredentialsProvider" modificationStamp="5618" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PostReceiveHookChain.java[PostReceiveHookChain" modificationStamp="5659" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PackedObjectInfo.java[PackedObjectInfo" modificationStamp="5653" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PushCertificateParser.java[PushCertificateParser" modificationStamp="5669" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{ReceiveCommand.java[ReceiveCommand" modificationStamp="5674" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{OperationResult.java[OperationResult" modificationStamp="5651" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{RemoteConfig.java[RemoteConfig" modificationStamp="5679" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{Daemon.java[Daemon" modificationStamp="5623" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{HttpTransport.java[HttpTransport" modificationStamp="5639" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{BasePackConnection.java[BasePackConnection" modificationStamp="5612" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{NonceGenerator.java[NonceGenerator" modificationStamp="5648" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{SshTransport.java[SshTransport" modificationStamp="5697" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{WalkTransport.java[WalkTransport" modificationStamp="5725" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{RemoteSession.java[RemoteSession" modificationStamp="5681" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PreUploadHookChain.java[PreUploadHookChain" modificationStamp="5665" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{URIish.java[URIish" modificationStamp="5718" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{HMACSHA1NonceGenerator.java[HMACSHA1NonceGenerator" modificationStamp="5632" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TransportProtocol.java[TransportProtocol" modificationStamp="5712" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{FetchResult.java[FetchResult" modificationStamp="5630" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{FetchConnection.java[FetchConnection" modificationStamp="5627" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PreUploadHook.java[PreUploadHook" modificationStamp="5664" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{ObjectCountCallback.java[ObjectCountCallback" modificationStamp="5649" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{SignedPushConfig.java[SignedPushConfig" modificationStamp="5695" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TcpTransport.java[TcpTransport" modificationStamp="5699" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{RefSpec.java[RefSpec" modificationStamp="5678" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{JschSession.java[JschSession" modificationStamp="5644" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{CredentialsProvider.java[CredentialsProvider" modificationStamp="5621" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{UploadPack.java[UploadPack" modificationStamp="5714" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{OpenSshConfig.java[OpenSshConfig" modificationStamp="5650" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TransportSftp.java[TransportSftp" modificationStamp="5713" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{BasePackFetchConnection.java[BasePackFetchConnection" modificationStamp="5613" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{RefFilter.java[RefFilter" modificationStamp="5677" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PushCertificate.java[PushCertificate" modificationStamp="5667" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PacketLineOut.java[PacketLineOut" modificationStamp="5655" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TagOpt.java[TagOpt" modificationStamp="5698" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PushResult.java[PushResult" modificationStamp="5673" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{DaemonClient.java[DaemonClient" modificationStamp="5624" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{Connection.java[Connection" modificationStamp="5619" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TransportHttp.java[TransportHttp" modificationStamp="5710" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{BundleWriter.java[BundleWriter" modificationStamp="5617" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TransportGitSsh.java[TransportGitSsh" modificationStamp="5709" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{UploadPackLoggerChain.java[UploadPackLoggerChain" modificationStamp="5717" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PostUploadHook.java[PostUploadHook" modificationStamp="5660" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PostReceiveHook.java[PostReceiveHook" modificationStamp="5658" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PackTransport.java[PackTransport" modificationStamp="5657" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{UsernamePasswordCredentialsProvider.java[UsernamePasswordCredentialsProvider" modificationStamp="5720" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{InternalHttpServerGlue.java[InternalHttpServerGlue" modificationStamp="5641" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{Transport.java[Transport" modificationStamp="5703" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PushConnection.java[PushConnection" modificationStamp="5671" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PacketLineIn.java[PacketLineIn" modificationStamp="5654" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{UploadPackLogger.java[UploadPackLogger" modificationStamp="5716" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{SshSessionFactory.java[SshSessionFactory" modificationStamp="5696" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{DaemonService.java[DaemonService" modificationStamp="5625" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PreReceiveHookChain.java[PreReceiveHookChain" modificationStamp="5663" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PackParser.java[PackParser" modificationStamp="5656" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PreReceiveHook.java[PreReceiveHook" modificationStamp="5662" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{BaseConnection.java[BaseConnection" modificationStamp="5610" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{CredentialsProviderUserInfo.java[CredentialsProviderUserInfo" modificationStamp="5622" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{AdvertiseRefsHookChain.java[AdvertiseRefsHookChain" modificationStamp="5608" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TransferConfig.java[TransferConfig" modificationStamp="5702" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{CredentialItem.java[CredentialItem" modificationStamp="5620" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{RefAdvertiser.java[RefAdvertiser" modificationStamp="5676" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TransportBundle.java[TransportBundle" modificationStamp="5705" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PostUploadHookChain.java[PostUploadHookChain" modificationStamp="5661" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TransportBundleStream.java[TransportBundleStream" modificationStamp="5707" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TransportAmazonS3.java[TransportAmazonS3" modificationStamp="5704" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{AbstractAdvertiseRefsHook.java[AbstractAdvertiseRefsHook" modificationStamp="5606" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{AdvertiseRefsHook.java[AdvertiseRefsHook" modificationStamp="5607" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{RemoteRefUpdate.java[RemoteRefUpdate" modificationStamp="5680" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{BaseReceivePack.java[BaseReceivePack" modificationStamp="5615" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{BasePackPushConnection.java[BasePackPushConnection" modificationStamp="5614" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{ReceivePack.java[ReceivePack" modificationStamp="5675" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TrackingRefUpdate.java[TrackingRefUpdate" modificationStamp="5701" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PushCertificateStore.java[PushCertificateStore" modificationStamp="5670" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{TestProtocol.java[TestProtocol" modificationStamp="5700" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{NetRCCredentialsProvider.java[NetRCCredentialsProvider" modificationStamp="5647" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{PushCertificateIdent.java[PushCertificateIdent" modificationStamp="5668" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport{JschConfigSessionFactory.java[JschConfigSessionFactory" modificationStamp="5643" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.hooks"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.hooks{Hooks.java[Hooks" modificationStamp="5249" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.hooks{PrePushHook.java[PrePushHook" modificationStamp="5251" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.hooks{PreCommitHook.java[PreCommitHook" modificationStamp="5250" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.hooks{GitHook.java[GitHook" modificationStamp="5248" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.hooks{CommitMsgHook.java[CommitMsgHook" modificationStamp="5247" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.notes"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.notes{NoteMapMerger.java[NoteMapMerger" modificationStamp="5516" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.notes{Note.java[Note" modificationStamp="5513" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.notes{NotesMergeConflictException.java[NotesMergeConflictException" modificationStamp="5519" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.notes{NoteMerger.java[NoteMerger" modificationStamp="5517" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.notes{NonNoteEntry.java[NonNoteEntry" modificationStamp="5512" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.notes{DefaultNoteMerger.java[DefaultNoteMerger" modificationStamp="5508" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.notes{NoteMap.java[NoteMap" modificationStamp="5515" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.dircache"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.dircache{DirCacheTree.java[DirCacheTree" modificationStamp="5169" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.dircache{DirCacheIterator.java[DirCacheIterator" modificationStamp="5168" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.dircache{BaseDirCacheEditor.java[BaseDirCacheEditor" modificationStamp="5161" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.dircache{DirCacheEditor.java[DirCacheEditor" modificationStamp="5166" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.dircache{DirCache.java[DirCache" modificationStamp="5162" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.dircache{DirCacheEntry.java[DirCacheEntry" modificationStamp="5167" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.dircache{DirCacheBuilder.java[DirCacheBuilder" modificationStamp="5163" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.dircache{DirCacheBuildIterator.java[DirCacheBuildIterator" modificationStamp="5164" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.dircache{DirCacheCheckout.java[DirCacheCheckout" modificationStamp="5165" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{TreeRevFilter.java[TreeRevFilter" modificationStamp="5591" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevCommit.java[RevCommit" modificationStamp="5577" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevFlag.java[RevFlag" modificationStamp="5579" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevObject.java[RevObject" modificationStamp="5581" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevObjectList.java[RevObjectList" modificationStamp="5582" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevWalk.java[RevWalk" modificationStamp="5586" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{FooterKey.java[FooterKey" modificationStamp="5567" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{FIFORevQueue.java[FIFORevQueue" modificationStamp="5548" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevTag.java[RevTag" modificationStamp="5584" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{FollowFilter.java[FollowFilter" modificationStamp="5566" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevBlob.java[RevBlob" modificationStamp="5576" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{FooterLine.java[FooterLine" modificationStamp="5568" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevCommitList.java[RevCommitList" modificationStamp="5578" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{LIFORevQueue.java[LIFORevQueue" modificationStamp="5570" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RenameCallback.java[RenameCallback" modificationStamp="5575" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{AsyncRevObjectQueue.java[AsyncRevObjectQueue" modificationStamp="5539" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{AbstractRevQueue.java[AbstractRevQueue" modificationStamp="5538" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevSort.java[RevSort" modificationStamp="5583" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevWalkUtils.java[RevWalkUtils" modificationStamp="5587" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevTree.java[RevTree" modificationStamp="5585" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{BlockRevQueue.java[BlockRevQueue" modificationStamp="5541" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{DateRevQueue.java[DateRevQueue" modificationStamp="5543" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{DepthWalk.java[DepthWalk" modificationStamp="5546" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{RevFlagSet.java[RevFlagSet" modificationStamp="5580" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk{ObjectWalk.java[ObjectWalk" modificationStamp="5572" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.gitrepo"/>
+        <fragment handle="=org.eclipse.jgit/resources&lt;org.eclipse.jgit.gitrepo"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.gitrepo{RepoCommand.java[RepoCommand" modificationStamp="5244" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.gitrepo{ManifestParser.java[ManifestParser" modificationStamp="5243" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.storage.file"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{ApplyCommand.java[ApplyCommand" modificationStamp="5024" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{PullCommand.java[PullCommand" modificationStamp="5088" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{RemoteRemoveCommand.java[RemoteRemoveCommand" modificationStamp="5096" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{SubmoduleStatusCommand.java[SubmoduleStatusCommand" modificationStamp="5112" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{Status.java[Status" modificationStamp="5108" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{RemoveNoteCommand.java[RemoveNoteCommand" modificationStamp="5098" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{GarbageCollectCommand.java[GarbageCollectCommand" modificationStamp="5075" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{AddCommand.java[AddCommand" modificationStamp="5022" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{CherryPickResult.java[CherryPickResult" modificationStamp="5031" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{ResetCommand.java[ResetCommand" modificationStamp="5100" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{StashApplyCommand.java[StashApplyCommand" modificationStamp="5104" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{DescribeCommand.java[DescribeCommand" modificationStamp="5038" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{StashCreateCommand.java[StashCreateCommand" modificationStamp="5105" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{PullResult.java[PullResult" modificationStamp="5089" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{RemoteAddCommand.java[RemoteAddCommand" modificationStamp="5094" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{StashListCommand.java[StashListCommand" modificationStamp="5107" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{TagCommand.java[TagCommand" modificationStamp="5115" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{BlameCommand.java[BlameCommand" modificationStamp="5027" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{StashDropCommand.java[StashDropCommand" modificationStamp="5106" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{DeleteBranchCommand.java[DeleteBranchCommand" modificationStamp="5036" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{RebaseResult.java[RebaseResult" modificationStamp="5092" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{CommitCommand.java[CommitCommand" modificationStamp="5034" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{CherryPickCommand.java[CherryPickCommand" modificationStamp="5030" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{TransportCommand.java[TransportCommand" modificationStamp="5116" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{ListTagCommand.java[ListTagCommand" modificationStamp="5081" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{ReflogCommand.java[ReflogCommand" modificationStamp="5093" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{RevertCommand.java[RevertCommand" modificationStamp="5101" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{ListBranchCommand.java[ListBranchCommand" modificationStamp="5079" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{RmCommand.java[RmCommand" modificationStamp="5102" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{ListNotesCommand.java[ListNotesCommand" modificationStamp="5080" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{GitCommand.java[GitCommand" modificationStamp="5077" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{TransportConfigCallback.java[TransportConfigCallback" modificationStamp="5117" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{CheckoutResult.java[CheckoutResult" modificationStamp="5029" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{SubmoduleAddCommand.java[SubmoduleAddCommand" modificationStamp="5110" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{CloneCommand.java[CloneCommand" modificationStamp="5033" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{LogCommand.java[LogCommand" modificationStamp="5082" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{RebaseCommand.java[RebaseCommand" modificationStamp="5091" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{DiffCommand.java[DiffCommand" modificationStamp="5039" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{FetchCommand.java[FetchCommand" modificationStamp="5074" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{RemoteSetUrlCommand.java[RemoteSetUrlCommand" modificationStamp="5097" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{MergeCommand.java[MergeCommand" modificationStamp="5084" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{CleanCommand.java[CleanCommand" modificationStamp="5032" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{StatusCommand.java[StatusCommand" modificationStamp="5109" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{SubmoduleSyncCommand.java[SubmoduleSyncCommand" modificationStamp="5113" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{PushCommand.java[PushCommand" modificationStamp="5090" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{CreateBranchCommand.java[CreateBranchCommand" modificationStamp="5035" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{NameRevCommand.java[NameRevCommand" modificationStamp="5086" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{SubmoduleUpdateCommand.java[SubmoduleUpdateCommand" modificationStamp="5114" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{InitCommand.java[InitCommand" modificationStamp="5078" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{ArchiveCommand.java[ArchiveCommand" modificationStamp="5026" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{CheckoutCommand.java[CheckoutCommand" modificationStamp="5028" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{RenameBranchCommand.java[RenameBranchCommand" modificationStamp="5099" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{SubmoduleInitCommand.java[SubmoduleInitCommand" modificationStamp="5111" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{DeleteTagCommand.java[DeleteTagCommand" modificationStamp="5037" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{AddNoteCommand.java[AddNoteCommand" modificationStamp="5023" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{RemoteListCommand.java[RemoteListCommand" modificationStamp="5095" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{LsRemoteCommand.java[LsRemoteCommand" modificationStamp="5083" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{MergeResult.java[MergeResult" modificationStamp="5085" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{ShowNoteCommand.java[ShowNoteCommand" modificationStamp="5103" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{Git.java[Git" modificationStamp="5076" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api{ApplyResult.java[ApplyResult" modificationStamp="5025" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.attributes"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.attributes{Attributes.java[Attributes" modificationStamp="5120" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.attributes{AttributesNodeProvider.java[AttributesNodeProvider" modificationStamp="5123" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.attributes{AttributesProvider.java[AttributesProvider" modificationStamp="5124" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.attributes{AttributesNode.java[AttributesNode" modificationStamp="5122" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.attributes{AttributesHandler.java[AttributesHandler" modificationStamp="5121" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.attributes{Attribute.java[Attribute" modificationStamp="5119" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{TooLargeObjectInPackException.java[TooLargeObjectInPackException" modificationStamp="5209" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{TranslationBundleException.java[TranslationBundleException" modificationStamp="5211" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{TooLargePackException.java[TooLargePackException" modificationStamp="5210" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{RepositoryNotFoundException.java[RepositoryNotFoundException" modificationStamp="5203" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{LargeObjectException.java[LargeObjectException" modificationStamp="5188" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{TranslationStringMissingException.java[TranslationStringMissingException" modificationStamp="5213" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{InvalidPatternException.java[InvalidPatternException" modificationStamp="5187" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{NoClosingBracketException.java[NoClosingBracketException" modificationStamp="5192" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{MissingBundlePrerequisiteException.java[MissingBundlePrerequisiteException" modificationStamp="5190" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{TransportException.java[TransportException" modificationStamp="5214" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{StoredObjectRepresentationNotAvailableException.java[StoredObjectRepresentationNotAvailableException" modificationStamp="5207" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{PackProtocolException.java[PackProtocolException" modificationStamp="5201" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{NoRemoteRepositoryException.java[NoRemoteRepositoryException" modificationStamp="5194" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{RemoteRepositoryException.java[RemoteRepositoryException" modificationStamp="5202" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.errors{TranslationBundleLoadingException.java[TranslationBundleLoadingException" modificationStamp="5212" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{MaxCountRevFilter.java[MaxCountRevFilter" modificationStamp="5554" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{MessageRevFilter.java[MessageRevFilter" modificationStamp="5555" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{PatternMatchRevFilter.java[PatternMatchRevFilter" modificationStamp="5560" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{CommitterRevFilter.java[CommitterRevFilter" modificationStamp="5552" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{RevFlagFilter.java[RevFlagFilter" modificationStamp="5562" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{RevFilter.java[RevFilter" modificationStamp="5561" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{SubStringRevFilter.java[SubStringRevFilter" modificationStamp="5564" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{SkipRevFilter.java[SkipRevFilter" modificationStamp="5563" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{AndRevFilter.java[AndRevFilter" modificationStamp="5550" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{OrRevFilter.java[OrRevFilter" modificationStamp="5558" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{CommitTimeRevFilter.java[CommitTimeRevFilter" modificationStamp="5553" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{AuthorRevFilter.java[AuthorRevFilter" modificationStamp="5551" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revwalk.filter{NotRevFilter.java[NotRevFilter" modificationStamp="5556" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.blame"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.blame{BlameResult.java[BlameResult" modificationStamp="5129" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.blame{BlameGenerator.java[BlameGenerator" modificationStamp="5128" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revplot"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revplot{AbstractPlotRenderer.java[AbstractPlotRenderer" modificationStamp="5531" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.revplot{PlotCommit.java[PlotCommit" modificationStamp="5533" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util.io"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util.io{EolCanonicalizingInputStream.java[EolCanonicalizingInputStream" modificationStamp="5777" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util.io{TimeoutOutputStream.java[TimeoutOutputStream" modificationStamp="5789" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util.io{AutoLFInputStream.java[AutoLFInputStream" modificationStamp="5773" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util.io{TimeoutInputStream.java[TimeoutInputStream" modificationStamp="5788" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util.io{InterruptTimer.java[InterruptTimer" modificationStamp="5779" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.events"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.events{ConfigChangedEvent.java[ConfigChangedEvent" modificationStamp="5219" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.events{IndexChangedEvent.java[IndexChangedEvent" modificationStamp="5221" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.events{RepositoryEvent.java[RepositoryEvent" modificationStamp="5228" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.events{RefsChangedEvent.java[RefsChangedEvent" modificationStamp="5226" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.events{ListenerList.java[ListenerList" modificationStamp="5224" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.events{ConfigChangedListener.java[ConfigChangedListener" modificationStamp="5220" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.events{IndexChangedListener.java[IndexChangedListener" modificationStamp="5222" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.events{RepositoryListener.java[RepositoryListener" modificationStamp="5229" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.events{ListenerHandle.java[ListenerHandle" modificationStamp="5223" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.events{RefsChangedListener.java[RefsChangedListener" modificationStamp="5227" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{RefComparator.java[RefComparator" modificationStamp="5461" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{IndexDiff.java[IndexDiff" modificationStamp="5440" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ObjectInserter.java[ObjectInserter" modificationStamp="5451" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ReflogReader.java[ReflogReader" modificationStamp="5464" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{BaseRepositoryBuilder.java[BaseRepositoryBuilder" modificationStamp="5422" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{RepositoryState.java[RepositoryState" modificationStamp="5472" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{BitmapIndex.java[BitmapIndex" modificationStamp="5425" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{TreeFormatter.java[TreeFormatter" modificationStamp="5478" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{Config.java[Config" modificationStamp="5432" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ObjectIdRef.java[ObjectIdRef" modificationStamp="5448" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{RebaseTodoFile.java[RebaseTodoFile" modificationStamp="5458" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{BlobBasedConfig.java[BlobBasedConfig" modificationStamp="5427" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ThreadSafeProgressMonitor.java[ThreadSafeProgressMonitor" modificationStamp="5477" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ObjectIdOwnerMap.java[ObjectIdOwnerMap" modificationStamp="5447" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ObjectIdSet.java[ObjectIdSet" modificationStamp="5449" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{RepositoryCache.java[RepositoryCache" modificationStamp="5470" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{EmptyProgressMonitor.java[EmptyProgressMonitor" modificationStamp="5438" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{SymbolicRef.java[SymbolicRef" modificationStamp="5474" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{TagBuilder.java[TagBuilder" modificationStamp="5475" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{FileMode.java[FileMode" modificationStamp="5439" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{RefUpdate.java[RefUpdate" modificationStamp="5466" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{TextProgressMonitor.java[TextProgressMonitor" modificationStamp="5476" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{Constants.java[Constants" modificationStamp="5436" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{NullProgressMonitor.java[NullProgressMonitor" modificationStamp="5443" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ObjectStream.java[ObjectStream" modificationStamp="5454" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{PersonIdent.java[PersonIdent" modificationStamp="5456" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{AbbreviatedObjectId.java[AbbreviatedObjectId" modificationStamp="5417" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{BatchRefUpdate.java[BatchRefUpdate" modificationStamp="5424" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{AsyncObjectSizeQueue.java[AsyncObjectSizeQueue" modificationStamp="5420" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{Ref.java[Ref" modificationStamp="5460" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{AsyncObjectLoaderQueue.java[AsyncObjectLoaderQueue" modificationStamp="5419" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ObjectIdSubclassMap.java[ObjectIdSubclassMap" modificationStamp="5450" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{AsyncOperation.java[AsyncOperation" modificationStamp="5421" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ObjectDatabase.java[ObjectDatabase" modificationStamp="5445" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{BranchTrackingStatus.java[BranchTrackingStatus" modificationStamp="5429" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{MutableObjectId.java[MutableObjectId" modificationStamp="5442" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ObjectChecker.java[ObjectChecker" modificationStamp="5444" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{RefDatabase.java[RefDatabase" modificationStamp="5462" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{RefRename.java[RefRename" modificationStamp="5465" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{CommitBuilder.java[CommitBuilder" modificationStamp="5431" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ReflogEntry.java[ReflogEntry" modificationStamp="5463" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ProgressMonitor.java[ProgressMonitor" modificationStamp="5457" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{BatchingProgressMonitor.java[BatchingProgressMonitor" modificationStamp="5423" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ObjectLoader.java[ObjectLoader" modificationStamp="5452" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{AnyObjectId.java[AnyObjectId" modificationStamp="5418" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{RepositoryCacheConfig.java[RepositoryCacheConfig" modificationStamp="5471" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{RepositoryBuilder.java[RepositoryBuilder" modificationStamp="5469" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{BranchConfig.java[BranchConfig" modificationStamp="5428" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{RebaseTodoLine.java[RebaseTodoLine" modificationStamp="5459" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{CheckoutEntry.java[CheckoutEntry" modificationStamp="5430" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ObjectId.java[ObjectId" modificationStamp="5446" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{BitmapObject.java[BitmapObject" modificationStamp="5426" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{StoredConfig.java[StoredConfig" modificationStamp="5473" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{ObjectReader.java[ObjectReader" modificationStamp="5453" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.lib{Repository.java[Repository" modificationStamp="5468" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport.http"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport.http{HttpConnectionFactory.java[HttpConnectionFactory" modificationStamp="5635" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport.http{JDKHttpConnectionFactory.java[JDKHttpConnectionFactory" modificationStamp="5637" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport.http{HttpConnection.java[HttpConnection" modificationStamp="5634" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport.http{JDKHttpConnection.java[JDKHttpConnection" modificationStamp="5636" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.ignore"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{RenameDetector.java[RenameDetector" modificationStamp="5153" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{HistogramDiff.java[HistogramDiff" modificationStamp="5145" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{HashedSequence.java[HashedSequence" modificationStamp="5142" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{LowLevelDiffAlgorithm.java[LowLevelDiffAlgorithm" modificationStamp="5147" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{SequenceComparator.java[SequenceComparator" modificationStamp="5155" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{EditList.java[EditList" modificationStamp="5141" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{Sequence.java[Sequence" modificationStamp="5154" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{Edit.java[Edit" modificationStamp="5140" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{RawTextComparator.java[RawTextComparator" modificationStamp="5152" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{MyersDiff.java[MyersDiff" modificationStamp="5148" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{SubsequenceComparator.java[SubsequenceComparator" modificationStamp="5159" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{DiffAlgorithm.java[DiffAlgorithm" modificationStamp="5136" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{ContentSource.java[ContentSource" modificationStamp="5135" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{PatchIdDiffFormatter.java[PatchIdDiffFormatter" modificationStamp="5150" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{Subsequence.java[Subsequence" modificationStamp="5158" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{HashedSequenceComparator.java[HashedSequenceComparator" modificationStamp="5143" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{DiffFormatter.java[DiffFormatter" modificationStamp="5139" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{DiffConfig.java[DiffConfig" modificationStamp="5137" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{RawText.java[RawText" modificationStamp="5151" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{HashedSequencePair.java[HashedSequencePair" modificationStamp="5144" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.diff{DiffEntry.java[DiffEntry" modificationStamp="5138" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{NotTreeFilter.java[NotTreeFilter" modificationStamp="5739" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{PathFilter.java[PathFilter" modificationStamp="5742" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{SkipWorkTreeFilter.java[SkipWorkTreeFilter" modificationStamp="5745" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{TreeFilter.java[TreeFilter" modificationStamp="5746" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{IndexDiffFilter.java[IndexDiffFilter" modificationStamp="5736" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{InterIndexDiffFilter.java[InterIndexDiffFilter" modificationStamp="5737" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{OrTreeFilter.java[OrTreeFilter" modificationStamp="5740" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{TreeFilterMarker.java[TreeFilterMarker" modificationStamp="5747" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{AndTreeFilter.java[AndTreeFilter" modificationStamp="5734" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{NotIgnoredFilter.java[NotIgnoredFilter" modificationStamp="5738" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{PathSuffixFilter.java[PathSuffixFilter" modificationStamp="5744" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk.filter{PathFilterGroup.java[PathFilterGroup" modificationStamp="5743" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk{TreeWalk.java[TreeWalk" modificationStamp="5750" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk{FileTreeIterator.java[FileTreeIterator" modificationStamp="5732" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk{CanonicalTreeParser.java[CanonicalTreeParser" modificationStamp="5730" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk{NameConflictTreeWalk.java[NameConflictTreeWalk" modificationStamp="5748" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk{WorkingTreeIterator.java[WorkingTreeIterator" modificationStamp="5751" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk{WorkingTreeOptions.java[WorkingTreeOptions" modificationStamp="5752" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk{AbstractTreeIterator.java[AbstractTreeIterator" modificationStamp="5729" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.treewalk{EmptyTreeIterator.java[EmptyTreeIterator" modificationStamp="5731" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{FS_POSIX.java[FS_POSIX" modificationStamp="5761" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{TemporaryBuffer.java[TemporaryBuffer" modificationStamp="5808" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{RawCharSequence.java[RawCharSequence" modificationStamp="5799" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{QuotedString.java[QuotedString" modificationStamp="5798" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{RawParseUtils.java[RawParseUtils" modificationStamp="5801" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{RawSubStringPattern.java[RawSubStringPattern" modificationStamp="5802" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{MutableInteger.java[MutableInteger" modificationStamp="5793" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{IntList.java[IntList" modificationStamp="5769" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{RefMap.java[RefMap" modificationStamp="5804" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{FileUtils.java[FileUtils" modificationStamp="5759" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{RefList.java[RefList" modificationStamp="5803" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{SystemReader.java[SystemReader" modificationStamp="5807" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{ProcessResult.java[ProcessResult" modificationStamp="5797" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{FS_Win32.java[FS_Win32" modificationStamp="5762" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{FS.java[FS" modificationStamp="5760" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{FS_Win32_Cygwin.java[FS_Win32_Cygwin" modificationStamp="5763" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.util{FileUtil.java[FileUtil" modificationStamp="5758" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.fnmatch"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.submodule"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.submodule{SubmoduleStatus.java[SubmoduleStatus" modificationStamp="5602" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.submodule{SubmoduleStatusType.java[SubmoduleStatusType" modificationStamp="5603" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport.resolver"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport.resolver{RepositoryResolver.java[RepositoryResolver" modificationStamp="5687" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.transport.resolver{FileResolver.java[FileResolver" modificationStamp="5684" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{InvalidRefNameException.java[InvalidRefNameException" modificationStamp="5053" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{InvalidTagNameException.java[InvalidTagNameException" modificationStamp="5055" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{TooLargeObjectInPackException.java[TooLargeObjectInPackException" modificationStamp="5069" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{RefNotAdvertisedException.java[RefNotAdvertisedException" modificationStamp="5066" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{CheckoutConflictException.java[CheckoutConflictException" modificationStamp="5044" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{MultipleParentsNotAllowedException.java[MultipleParentsNotAllowedException" modificationStamp="5057" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{NoHeadException.java[NoHeadException" modificationStamp="5059" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{EmtpyCommitException.java[EmtpyCommitException" modificationStamp="5047" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{InvalidConfigurationException.java[InvalidConfigurationException" modificationStamp="5050" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{CanceledException.java[CanceledException" modificationStamp="5042" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{RefAlreadyExistsException.java[RefAlreadyExistsException" modificationStamp="5065" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{FilterFailedException.java[FilterFailedException" modificationStamp="5048" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{NoMessageException.java[NoMessageException" modificationStamp="5060" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{ConcurrentRefUpdateException.java[ConcurrentRefUpdateException" modificationStamp="5045" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{InvalidRebaseStepException.java[InvalidRebaseStepException" modificationStamp="5052" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{InvalidMergeHeadsException.java[InvalidMergeHeadsException" modificationStamp="5051" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{PatchApplyException.java[PatchApplyException" modificationStamp="5063" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{WrongRepositoryStateException.java[WrongRepositoryStateException" modificationStamp="5073" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{GitAPIException.java[GitAPIException" modificationStamp="5049" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{TooLargePackException.java[TooLargePackException" modificationStamp="5070" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{PatchFormatException.java[PatchFormatException" modificationStamp="5064" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{RefNotFoundException.java[RefNotFoundException" modificationStamp="5067" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{TransportException.java[TransportException" modificationStamp="5071" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{CannotDeleteCurrentBranchException.java[CannotDeleteCurrentBranchException" modificationStamp="5043" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{NoFilepatternException.java[NoFilepatternException" modificationStamp="5058" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{InvalidRemoteException.java[InvalidRemoteException" modificationStamp="5054" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{AbortedByHookException.java[AbortedByHookException" modificationStamp="5041" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{DetachedHeadException.java[DetachedHeadException" modificationStamp="5046" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{NotMergedException.java[NotMergedException" modificationStamp="5061" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{UnmergedPathsException.java[UnmergedPathsException" modificationStamp="5072" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.api.errors{StashApplyFailureException.java[StashApplyFailureException" modificationStamp="5068" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.nls"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.patch"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.patch{Patch.java[Patch" modificationStamp="5529" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.patch{HunkHeader.java[HunkHeader" modificationStamp="5527" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.patch{FormatError.java[FormatError" modificationStamp="5526" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.patch{CombinedHunkHeader.java[CombinedHunkHeader" modificationStamp="5524" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.patch{FileHeader.java[FileHeader" modificationStamp="5525" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.patch{BinaryHunk.java[BinaryHunk" modificationStamp="5522" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.patch{CombinedFileHeader.java[CombinedFileHeader" modificationStamp="5523" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.storage.pack"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.storage.pack{PackStatistics.java[PackStatistics" modificationStamp="5599" restrictions="0" visibility="0"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.annotations"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{StrategyResolve.java[StrategyResolve" modificationStamp="5498" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{ThreeWayMergeStrategy.java[ThreeWayMergeStrategy" modificationStamp="5501" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{ThreeWayMerger.java[ThreeWayMerger" modificationStamp="5500" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{MergeStrategy.java[MergeStrategy" modificationStamp="5491" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{Merger.java[Merger" modificationStamp="5489" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{MergeResult.java[MergeResult" modificationStamp="5490" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{StrategySimpleTwoWayInCore.java[StrategySimpleTwoWayInCore" modificationStamp="5499" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{MergeFormatter.java[MergeFormatter" modificationStamp="5486" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{ResolveMerger.java[ResolveMerger" modificationStamp="5494" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{StrategyOneSided.java[StrategyOneSided" modificationStamp="5496" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{MergeChunk.java[MergeChunk" modificationStamp="5484" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{StrategyRecursive.java[StrategyRecursive" modificationStamp="5497" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{MergeAlgorithm.java[MergeAlgorithm" modificationStamp="5483" restrictions="0" visibility="0"/>
+        <type handle="=org.eclipse.jgit/src&lt;org.eclipse.jgit.merge{RecursiveMerger.java[RecursiveMerger" modificationStamp="5493" restrictions="0" visibility="0"/>
+    </package>
+</component>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.eclipse.e4.ui.internal.workbench.Activator"/>
+<fullyQualifiedTypeName name="javax.swing.AbstractButton"/>
+<fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Button"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Listener"/>
+<fullyQualifiedTypeName name="com.georgeb.rcpapp.parts.GetGitAddress"/>
+<fullyQualifiedTypeName name="com.georgeb.rcpapp.parts.CurrentCommit"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.TableColumn"/>
+<fullyQualifiedTypeName name="javax.inject.Inject"/>
+<fullyQualifiedTypeName name="com.georgeb.rcpapp.parts.ListOfCommits"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Text"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.layout.FillLayout"/>
+<fullyQualifiedTypeName name="javax.swing.JTextArea"/>
+<fullyQualifiedTypeName name="org.eclipse.swt.widgets.Label"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="org.eclipse.egit.github.core.RepositoryCommit"/>
+<fullyQualifiedTypeName name="org.eclipse.egit.github.core.Commit"/>
+<fullyQualifiedTypeName name="org.eclipse.jgit.lib.Repository"/>
+<fullyQualifiedTypeName name="org.eclipse.jgit.lib.Constants"/>
+<fullyQualifiedTypeName name="org.eclipse.jgit.revwalk.RevWalk"/>
+<fullyQualifiedTypeName name="org.eclipse.egit.github.core.RepositoryId"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.eclipse.jgit.lib.ObjectId"/>
+<fullyQualifiedTypeName name="org.eclipse.jgit.api.Status"/>
+<fullyQualifiedTypeName name="org.eclipse.jgit.lib.Ref"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

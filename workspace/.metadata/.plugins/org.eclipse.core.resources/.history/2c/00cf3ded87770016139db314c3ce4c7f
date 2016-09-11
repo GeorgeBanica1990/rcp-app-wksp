@@ -1,0 +1,19 @@
+package com.georgeb.rcpapp.parts;
+
+import java.io.IOException;
+
+import org.eclipse.egit.github.core.RepositoryId;
+import org.eclipse.egit.github.core.client.GitHubClient;
+import org.eclipse.egit.github.core.service.RepositoryService;
+
+public class GitCommands {
+	public static void fork(String user, String password, String owner, String name, String organization) throws IOException {
+		GitHubClient client = new GitHubClient();
+		client.setCredentials(user, password);
+		RepositoryService service = new RepositoryService(client);
+		RepositoryId toBeForked = new RepositoryId(owner, name);
+		service.forkRepository(toBeForked, "jenkinci");
+	}
+	
+	
+}

@@ -1,0 +1,53 @@
+package com.georgeb.rcpapp.parts;
+
+import java.util.Arrays;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+
+import org.eclipse.e4.ui.di.Focus;
+import org.eclipse.jface.viewers.ArrayContentProvider;
+import org.eclipse.jface.viewers.TableViewer;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.widgets.Composite;
+
+public class ListOfCommits {
+	//private Text txtInput;
+			private TableViewer tableViewer;
+String test = GetGitAddress.repoInfo;
+			@PostConstruct
+			public void createComposite(Composite parent) {
+				parent.setLayout(new GridLayout(1, false));
+
+//				txtInput = new Text(parent, SWT.BORDER);
+//				txtInput.setMessage("Enter text to mark part as dirty");
+//				txtInput.addModifyListener(new ModifyListener() {
+//					@Override
+//					public void modifyText(ModifyEvent e) {
+//						dirty.setDirty(true);
+//					}
+//				});
+//				txtInput.setLayoutData(new GridData(GridData.FILL_HORIZONTAL));
+
+				tableViewer = new TableViewer(parent, SWT.MULTI);
+
+				tableViewer.setContentProvider(ArrayContentProvider.getInstance());;
+				//tableViewer.setInput(createInitialDataModel());
+				tableViewer.setInput(test);
+				tableViewer.add(test);
+				tableViewer.getTable().setLayoutData(new GridData(SWT.FILL, SWT.FILL, true, true));
+			}
+			public void setData(String data){
+				tableViewer.add(data);
+			}
+			@Focus
+			public void setFocus() {
+				tableViewer.getTable().setFocus();
+			}
+			private List<String> createInitialDataModel() {
+				return Arrays.asList("item 1", "item 32", "item 3", "item 4", "item 5");
+			}
+
+	}
