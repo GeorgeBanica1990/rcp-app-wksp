@@ -1,0 +1,66 @@
+package com.georgeb.rcpapp.parts;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import org.eclipse.egit.github.core.RepositoryId;
+import org.eclipse.egit.github.core.client.GitHubClient;
+import org.eclipse.egit.github.core.service.RepositoryService;
+import org.eclipse.jgit.api.Git;
+import org.eclipse.jgit.api.errors.GitAPIException;
+import org.eclipse.jgit.internal.storage.file.FileRepository;
+import org.eclipse.jgit.lib.Ref;
+import org.eclipse.jgit.lib.Repository;
+import org.eclipse.jgit.revwalk.RevCommit;
+
+public class GitCommands {
+	public static void fork(String[] args) throws IOException {
+		GitHubClient client = new GitHubClient();
+		client.setCredentials(args[0], args[1]);
+		RepositoryService service = new RepositoryService(client);
+		RepositoryId toBeForked = new RepositoryId(args[2], args[3]);
+		service.forkRepository(toBeForked);
+	}
+	
+	public static ArrayList<String> getCommits(String repository) throws IOException, GitAPIException{
+		 Repository repo = new FileRepository(repository+"\\.git");
+		    Git git = new Git(repo);
+		    
+		    List<Ref> branches = git.branchList().call();
+		    ArrayList<String> obj = new ArrayList<String>();
+
+		    for (Ref branch : branches) {
+		        String branchName = branch.getName();
+
+		        Iterable<RevCommit> commits = git.log().add(repo.resolve(branchName)).call();
+
+		        for (RevCommit commit : commits) {
+		        	StringBuilder builder = new StringBuilder();
+		        	builder.append(commit.getName());
+		        	 builder.append(System.lineSeparator());
+		        	 builder.append(commit.getAuthorIdent().getName());
+		        	 builder.append(System.lineSeparator());
+		        	 builder.append(new Date(commit.getCommitTime() * 1000L));
+		        	 builder.append(System.lineSeparator());
+		        	 builder.append(commit.getFullMessage());
+		        	 builder.append(System.lineSeparator());
+		        	 obj.add(builder.toString());
+		        }
+		        
+		    }
+		    git.close();
+		    return obj;
+		   
+	}
+
+	  public static void testClone(String uri, String localRep) throws IOException, GitAPIException {
+	        Git.cloneRepository().setURI(uri).setDirectory(new File(localRep)).call();
+	    }
+	  
+	  public static void gitCheckoutCommit (String commit){
+		  
+	  }
+}

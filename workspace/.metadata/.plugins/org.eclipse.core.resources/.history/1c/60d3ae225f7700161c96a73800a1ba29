@@ -1,0 +1,5 @@
+package com.georgeb.rcpapp.handlers;
+
+public class ButtonPressHandler {
+
+}

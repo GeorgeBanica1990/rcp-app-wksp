@@ -1,0 +1,84 @@
+package com.georgeb.rcpapp.parts;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+import javax.swing.JOptionPane;
+
+import org.eclipse.jgit.api.Git;
+import org.eclipse.jgit.api.errors.GitAPIException;
+import org.eclipse.jgit.internal.storage.file.FileRepository;
+import org.eclipse.jgit.lib.Ref;
+import org.eclipse.jgit.lib.Repository;
+import org.eclipse.jgit.revwalk.RevCommit;
+
+/**
+ * Helping class containing git commands used.
+ * @author GeorgeB
+ *
+ */
+public class GitCommands {
+
+	/**
+	 * Returns commits related to passed repository
+	 * @param repository
+	 * @return ArrayList<String> containing all commits with their info
+	 * @throws IOException
+	 * @throws GitAPIException
+	 */
+	public static ArrayList<String> getCommits(String repository) throws IOException, GitAPIException {
+		Repository repo = new FileRepository(repository + "\\.git");
+		Git git = new Git(repo);
+
+		List<Ref> branches = git.branchList().call();
+		ArrayList<String> obj = new ArrayList<String>();
+
+		for (Ref branch : branches) {
+			String branchName = branch.getName();
+
+			Iterable<RevCommit> commits = git.log().add(repo.resolve(branchName)).call();
+
+			for (RevCommit commit : commits) {
+				StringBuilder builder = new StringBuilder();
+				builder.append(commit.getName());
+				builder.append(System.lineSeparator());
+				builder.append(commit.getAuthorIdent().getName());
+				builder.append(System.lineSeparator());
+				builder.append(new Date(commit.getCommitTime() * 1000L));
+				builder.append(System.lineSeparator());
+				builder.append(commit.getFullMessage());
+				builder.append(System.lineSeparator());
+				obj.add(builder.toString());
+			}
+
+		}
+		git.close();
+		return obj;
+
+	}
+
+	public static void gitCloneRepository(String uri, String localRep) throws IOException, GitAPIException {
+		Git.cloneRepository().setURI(uri).setDirectory(new File(localRep)).call();
+	}
+
+	public static void gitCheckoutCommit(String commit) {
+		try {
+			Repository repo = new FileRepository(System.getProperty("java.io.tmpdir") + "\\eclipse-rcp\\.git");
+			Git git = new Git(repo);
+			git.checkout().setName(commit).call();
+			JOptionPane.showMessageDialog(null, "Commit was reverted", "Reverted Commit",
+					JOptionPane.INFORMATION_MESSAGE);
+			git.close();
+		} catch (IOException | GitAPIException e) {
+			// TODO Auto-generated catch block
+			JOptionPane.showMessageDialog(null, "Commit was not reverted", "Error Reverting Commit",
+					JOptionPane.ERROR_MESSAGE);
+			e.printStackTrace();
+
+		}
+
+	}
+}

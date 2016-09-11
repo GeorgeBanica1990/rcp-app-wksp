@@ -1,0 +1,18 @@
+package com.georgeb.testgitcommands;
+
+import java.io.IOException;
+
+import com.georgeb.rcpapp.parts.GitCommands;
+
+public class Testing {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		String [] lista = {"GeorgeBanica1990", "repositoryserios", "octocat", "Spoon-Knife"};
+		GitCommands.fork(lista);
+		String owner = "octocat";
+		String name = "Spoon-Knife";
+		GitCommands.testClone("https://github.com/GeorgeBanica1990/rcp-app-testfiles.git", "F:\\Eclipse\\detest");
+	}
+
+}

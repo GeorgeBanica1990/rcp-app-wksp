@@ -1,0 +1,44 @@
+package com.georgeb.rcpapp.parts;
+
+import java.util.Arrays;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+
+import org.eclipse.e4.ui.di.Focus;
+import org.eclipse.jface.viewers.TableViewer;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.Text;
+
+public class CurrentCommitInfo {
+
+	private TableViewer tableViewer;
+
+	@PostConstruct
+	public void createComposite(Composite parent) {
+		parent.setLayout(new GridLayout(1, false));
+
+		Label label = new Label(parent, SWT.BORDER);
+		label.setText("This is a label:");
+		label.setToolTipText("This is the tooltip of this label");
+
+		Text text = new Text(parent, SWT.NONE);
+		text.setText("This is the text in the text widget");
+		text.setBackground(display.getSystemColor(SWT.COLOR_BLACK));
+		text.setForeground(display.getSystemColor(SWT.COLOR_WHITE));
+
+		// set widgets size to their preferred size
+		text.pack();
+		label.pack();
+	}
+	@Focus
+	public void setFocus() {
+		tableViewer.getTable().setFocus();
+	}
+	private List<String> createInitialDataModel() {
+		return Arrays.asList("commitinfo 1", "commitinfo 2", "commitinfo 3", "commitinfo 4", "commitinfo 1");
+	}
+}

@@ -1,0 +1,58 @@
+package com.georgeb.rcpapp.parts;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Date;
+import java.util.List;
+
+import org.eclipse.egit.github.core.RepositoryId;
+import org.eclipse.egit.github.core.client.GitHubClient;
+import org.eclipse.egit.github.core.service.RepositoryService;
+import org.eclipse.jgit.api.Git;
+import org.eclipse.jgit.api.errors.GitAPIException;
+import org.eclipse.jgit.internal.storage.file.FileRepository;
+import org.eclipse.jgit.lib.Ref;
+import org.eclipse.jgit.lib.Repository;
+import org.eclipse.jgit.revwalk.RevCommit;
+
+public class GitCommands {
+	public static void fork(String[] args) throws IOException {
+		GitHubClient client = new GitHubClient();
+		client.setCredentials(args[0], args[1]);
+		RepositoryService service = new RepositoryService(client);
+		RepositoryId toBeForked = new RepositoryId(args[2], args[3]);
+		service.forkRepository(toBeForked);
+	}
+	
+	public static void getCommits(String repository) throws IOException, GitAPIException{
+		 Repository repo = new FileRepository("pathToRepo/.git");
+		    Git git = new Git(repo);
+
+		    List<Ref> branches = git.branchList().call();
+
+		    for (Ref branch : branches) {
+		        String branchName = branch.getName();
+
+		        System.out.println("Commits of branch: " + branchName);
+		        System.out.println("-------------------------------------");
+
+		        Iterable<RevCommit> commits = git.log().add(repo.resolve(branchName)).call();
+
+		        List<RevCommit> commitsList = Lists.newArrayList(commits.iterator());
+
+		        for (RevCommit commit : commitsList) {
+		            System.out.println(commit.getName());
+		            System.out.println(commit.getAuthorIdent().getName());
+		            System.out.println(new Date(commit.getCommitTime() * 1000L));
+		            System.out.println(commit.getFullMessage());
+		        }
+		    }
+
+		    git.close();
+	}
+
+	  public static void testClone(String uri, String localRep) throws IOException, GitAPIException {
+	        Git.cloneRepository().setURI(uri)
+	                .setDirectory(new File(localRep)).call();
+	    }
+}
